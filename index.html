@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naman Bhatta | Travel Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <i class="fas fa-compass"></i>
+                Naman Bhatta
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#travel" class="nav-link">Travel</a></li>
+                <li><a href="#interests" class="nav-link">Interests</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hello, I'm Naman Bhatta</h1>
+            <p class="hero-subtitle">Exploring the world one adventure at a time</p>
+            <div class="hero-buttons">
+                <a href="#travel" class="btn btn-primary">My Travels</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="pfp-container">
+                        <img src="naman.png" alt="Naman Bhatta">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I'm Naman Bhatta, a passionate explorer who loves to combine technology with adventure. When I'm not coding or building digital experiences, you'll find me exploring new destinations, capturing moments, or diving into gaming worlds.</p>
+                    <p>My journey has taken me through incredible experiences in web development, mobile apps, and creative projects - all while collecting passport stamps and unforgettable memories around the globe.</p>
+                    <div class="tags">
+                        <span class="tag"><i class="fas fa-globe"></i> Travel</span>
+                        <span class="tag"><i class="fas fa-code"></i> Programming</span>
+                        <span class="tag"><i class="fas fa-music"></i> Music</span>
+                        <span class="tag"><i class="fas fa-film"></i> Movies</span>
+                        <span class="tag"><i class="fas fa-book"></i> Books</span>
+                        <span class="tag"><i class="fas fa-gamepad"></i> Gaming</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="travel" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">My Travel Adventures</h2>
+            
+            <div class="carousel-wrapper">
+                <div class="carousel-3d" id="carousel">
+                    <div class="carousel-slide" data-position="0">
+                        <div class="carousel-inner">
+                            <img src="tr0.jpg" alt="Mountains">
+                            <div class="carousel-overlay">
+                                <div class="location-tag">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Usko Maan</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" data-position="1">
+                        <div class="carousel-inner">
+                            <img src="tr1.jpg" alt="City">
+                            <div class="carousel-overlay">
+                                <div class="location-tag">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Usko yaad</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" data-position="2">
+                        <div class="carousel-inner">
+                            <img src="tr2.jpg" alt="Beach">
+                            <div class="carousel-overlay">
+                                <div class="location-tag">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Her smile</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" data-position="3">
+                        <div class="carousel-inner">
+                            <img src="tr3.jpg" alt="Lake">
+                            <div class="carousel-overlay">
+                                <div class="location-tag">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Her Eyes</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" data-position="4">
+                        <div class="carousel-inner">
+                            <img src="tr4.jpg" alt="Desert">
+                            <div class="carousel-overlay">
+                                <div class="location-tag">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Her hair</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" data-position="5">
+                        <div class="carousel-inner">
+                            <img src="tr5.jpg" alt="Architecture">
+                            <div class="carousel-overlay">
+                                <div class="location-tag">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>She</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-btn next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests" class="section">
+        <div class="container">
+            <h2 class="section-title">My Passions</h2>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="interest-icon music">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Music</h3>
+                    <p>From indie folk to electronic beats</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon film">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Movies</h3>
+                    <p>Cinephile with eclectic taste</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon books">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Books</h3>
+                    <p>Sci-fi, memoirs & travelogues</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon gaming">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Gaming</h3>
+                    <p>Indie games & immersive RPGs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a question or want to work together? Drop me a message!</p>
+            
+            <div class="contact-container">
+                <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                    <input type="hidden" name="subject" value="New Contact from Portfolio">
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subjectInput" name="subjectInput" required placeholder="What's this about?">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project or just say hi!"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+                
+                <div id="formSuccess" class="form-success hidden">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Thank you for your message! I'll get back to you soon.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-compass"></i> Naman Bhatta</h3>
+                    <p>Exploring the world through adventure and technology.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#travel">Travel Adventures</a></li>
+                        <li><a href="#interests">My Interests</a></li>
+                        <li><a href="#contact">Get in Touch</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> hello@namanbhatta.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Based in Nepal</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Naman Bhatta. All rights reserved. Made with <span class="heart">❤</span> and adventure.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Message sent successfully!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
